@@ -1,0 +1,105 @@
+# dev.sh Messages Configuration
+# Edit these messages to your liking, then send back to apply changes
+
+[FILE_NOT_FOUND]
+(File path) not found
+
+[PATTERN_NOT_FOUND]
+(Pattern) not found
+
+[SYNTAX_ERROR]
+Syntax error: (show syntax error here)
+
+[NO_BACKUP_FOUND]
+(File path) backup not found
+
+[UNKNOWN_FILE_TYPE]
+$file unknown file type
+
+[DUPLICATE_WARNING]
+Duplicate function/class definitions:
+$dup_check
+Review diff before applying:
+
+- (accidentally removed footer thingy add it back but only with one -)
+(Diff goes here)
+-
+
+[FILE_UPDATED]
+$file updated, .bak created in dir
+
+[FILE_UPDATED_LINES]
+$file updated (lines $start-$end replaced, .bak in same dir) (idk what this is)
+
+[FILE_UPDATED_REGEX]
+$file updated (regex applied, .bak in same dir)
+
+[FILE_RESTORED]
+$file restored from .bak
+
+[RUNNING_PYTHON]
+Exec py: $file
+
+[RUNNING_SHELL]
+Exec Shell: $file
+
+[RUNNING_SWIFT]
+Exec Swift: $file
+
+[SEARCHING_FOR]
+Finding: $pattern
+
+[RUNNING_TESTS]
+Running tests
+
+[NO_PYTHON_TESTS]
+No py test framework found
+
+[NO_TESTS_CONFIGURED]
+No tests configured
+
+[CHECKING_BACKUPS]
+Checking for .bak
+
+[NO_PENDING_CHANGES]
+All clear
+
+[FILES_WITH_BACKUPS]
+Files with .bak:
+
+[CHANGES_IN]
+Changes in: $original
+
+[UNDO_HELP]
+To undo a edit: d undo <file>
+
+[KEEP_HELP]
+To save a edit: d clean
+
+[NO_BACKUPS_TO_CLEAN]
+No .bak's to delete
+
+[REMOVING_BACKUPS]
+Deleting .bak's
+
+[BACKUPS_CLEANED]
+.bak's deleted
+
+[LINTING]
+Linting: $file
+
+[DUPLICATE_FUNCTIONS]
+Dupe function in $f:
+
+[DUPLICATE_IMPORTS]
+Dupe imports in $f:
+
+[NO_ISSUES_FOUND]
+No issues found
+
+[ISSUES_FOUND_FOOTER]
+-
+Found $issues issue(s) (idk what this is)
+
+[UNKNOWN_COMMAND]
+Unknown cmd: $cmd
